@@ -14,7 +14,7 @@ void Client::enterInfo() { // declaring function definiton
 	bool valid;
 	
 
-	cout << "Please enter your name: ";
+	cout << "Please enter your first and last name: ";
 	cin.getline(name, 20);
 	cout << "Please enter your address: ";
 	cin.getline(address, 35);
